@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("../images/bgimg.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.bannerTitle {
+    font-size: 3rem;
+}
+
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+
+}
+
+.card:hover {
+    background-color: #DCDCDC;
+    border: 2px solid #87bec9;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img-fluid:hover {
+
+    border: 2px solid #87bec9;
+}
+
+.card-img-top {
+    height: 50vh;
+}
